@@ -16,9 +16,9 @@ int main(){
     scanf("%d", &key);
 
     encrypt(key, text, encryptedtext);
-    printf("Encrypted Text: %s \n", encryptedtext);
+    printf("Encrypted Text: %s", encryptedtext);
 
-    decrypt(key, encryptedtext, decryptedtext);
+    decrypt(key, text, decryptedtext);
     printf("Decrypted Text: %s", decryptedtext);
 
     return 0;
